@@ -394,6 +394,7 @@ input[type="checkbox"] {
   text-align: center;
   background-color: #FFFFFF;
   margin-bottom: 64px;
+  margin-left: 34px;
 }
 
 .footer__row {
@@ -454,6 +455,12 @@ button:active{
 button:hover{
   color: #886a07;
 }
+.scale {
+  transition: 1s; 
+ }
+ .scale:hover {
+  transform: scale(1.2);
+ }
 
 /* ----------------------------------media-------------------------------------------------------------------- */
 @media (max-width:1267px) {
@@ -535,6 +542,11 @@ button:hover{
     .header__line{
       display: none;
      }
+     .header__row-item {
+      flex-wrap: wrap;
+      flex-basis: 12%;
+      margin-left: -10px;
+    }
   }
   @media(max-width:754px){
     .button-small{
@@ -543,17 +555,16 @@ button:hover{
       width: 100px;
       height: 44px;
     }
-    .header__row-item {
-      flex-wrap: wrap;
-      flex-basis: 12%;
-      margin-left: -10px;
-    }
     .hero-block_img img{
       margin-top: 91px;
       width: 203px;
     }  
   .hero-block__item { 
   margin-top: 130px;
+  }
+  .hero-block_img {
+    background-image: linear-gradient(45deg, #ff7143, #000000d9);
+
   }
 }
 @media (max-width:670px) {
@@ -576,8 +587,10 @@ button:hover{
       font-size: 10px;
       padding: 0px 0px;
       width: 68px;
-      height: 30px;
+      height: 40px;
       margin-right: -19px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     .header__list-item {
     margin: 0px 12px 0px 0px;
@@ -588,7 +601,7 @@ button:hover{
     margin: 0px 2px 4px 3px;
 }
    .header__logo{
-      width: 50px;
+      width: 70px;
    }
    .header__address{
     font-size: 10px;
@@ -627,6 +640,9 @@ button:hover{
     .form-registration__button {
       padding: 20px 79px;
   }
+  .hero-block__item{
+    margin-top: 75px;
+  }
 
 }
 @media (max-width:755px) {
@@ -640,7 +656,7 @@ button:hover{
   
   }
   .footer__list_two img{
-    width: 50px;
+    width: 35px;
     vertical-align: middle;  
   }
   .footer__button{
