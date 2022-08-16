@@ -555,6 +555,9 @@ button:hover{
   .hero-block__item { 
   margin-top: 130px;
   }
+    .hero-block_img{
+    background-image:linear-gradient(#FF7143,black);
+  }
 }
 @media (max-width:670px) {
   .form-registration__title{
@@ -622,9 +625,6 @@ button:hover{
     margin-left:-4px;
     width: 149px;
 }
-  .hero-block_img{
-    background-image:linear-gradient(#FF7143,black);
-  }
 }
 @media (max-width:476px) {
     .form-registration__button {
