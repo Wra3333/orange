@@ -200,6 +200,9 @@
         padding: 0;
       }
 @media (max-width:688px) {
+          .footer a {
+          margin-right: 10px;
+        }
         .footer__list_one li {
           flex-basis: 100%;
         }
