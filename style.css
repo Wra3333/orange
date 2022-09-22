@@ -1,4 +1,8 @@
 /* --------------------------------header------------------------------------- */
+.list-block__item img{
+  max-width: 100%;
+  height: auto;
+}
 .header {
   background: #000000;
   color: #FFFFFF;
@@ -69,6 +73,7 @@
 }
 
 /* ----------------------------------main----------------------------- */
+
 .hero-block {
   background: #FF7143;
 }
@@ -108,7 +113,9 @@
   color: #000000;
 
 }
-
+.hero-block__item_display{
+  display: none;
+}
 .row-button {
   display: flex;
 }
@@ -450,5 +457,5 @@ button:hover{
   transition: 1s; 
  }
  .scale:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
  }
