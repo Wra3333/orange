@@ -347,4 +347,12 @@
   
       flex-basis: 50%;
   }
+  .list-block__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000000;
+    margin: 13px 0px 0px 0px;
+}
   }
