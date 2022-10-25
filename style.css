@@ -71,6 +71,15 @@
   background: #FF7043;
   color: #000000;
 }
+.burger{
+  display: none;
+}
+.burger ul{
+ display: none;
+}
+.burger form{
+  display: none;
+}
 
 /* ----------------------------------main----------------------------- */
 
