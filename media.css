@@ -67,6 +67,10 @@
     width: 50px;
     background: url("img/header/icons8-меню-50.png");
   }
+  .list-block__title {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 }
 @media (max-width:1267px) {
@@ -181,8 +185,8 @@
     }
 
     .list-block__row img {
-      height: 125px;
-      width: 125px;
+      height: 164px;
+      width: 174px
     }
   }
   @media (max-width:690px) {
@@ -332,3 +336,15 @@
           }
         }
 }
+@media (max-width: 566px){
+.list-block__wrapper {
+
+    flex-basis: 48%;
+}
+}
+@media (max-width: 400px){
+  .list-block__wrapper {
+  
+      flex-basis: 50%;
+  }
+  }
