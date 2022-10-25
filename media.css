@@ -48,6 +48,7 @@
     border-radius: 18px;
     height: 155px;
     width: 90px;
+    margin-right: -22px;
 }
   .burger ul {
     display: none;
